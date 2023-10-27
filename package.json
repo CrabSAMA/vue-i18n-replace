@@ -1,0 +1,28 @@
+{
+  "name": "i18n-replace",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/babel__traverse": "^7.20.3",
+    "@types/babel__generator": "^7.6.6",
+    "@types/fs-extra": "^11.0.2",
+    "@types/html-minifier-terser": "^7.0.1",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.23.0",
+    "@babel/parser": "^7.23.0",
+    "@babel/template": "^7.22.15",
+    "@babel/traverse": "^7.23.2",
+    "@babel/types": "^7.23.0",
+    "@vue/compiler-dom": "^3.3.4",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.10",
+    "html-minifier-terser": "^7.2.0",
+    "posthtml": "^0.16.6",
+    "terser": "^5.22.0"
+  }
+}
